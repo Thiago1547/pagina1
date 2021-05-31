@@ -1,0 +1,151 @@
+:root {
+    --input-linear: linear-gradient(120deg, #89228f, #ffd852);
+    --input-error: red; 
+    --button-linear: linear-gradient(120deg, #89228f, #ffd852, #89228f);
+    --button-disable: #acacac;
+    --white: #fff; 
+    --black: #303030; 
+    --gray: #929292;
+    --light-gray: #cfcfcf;
+    --purple: #89228f;
+    --yellow:#ffd852;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    padding-left: 5px;
+    background: var(--input-linear);
+    min-height: 100vh;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.fieldset {
+    background: var(--white);
+    width: 300px;
+    height: 480px;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    flex-direction: inline;
+    float: left;
+    margin: 1.1rem;
+}
+
+.img {
+    width: 202px;
+    height: 249px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+
+#estrela {
+    width: 30px;
+    height: 30px;
+}
+
+p{
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    right: 10%;
+    transform: translate(-10%, -85%, 0, -10%);
+    text-align: justify ;
+}
+
+.esp {
+    align-items: center;
+    background: var(--input-linear);
+    height: 30px;
+    width: 60%;
+    font-size: 15px;
+    position: absolute;
+    top: 80%;
+    transform: translate(0, -80%);
+    text-align: justify ;
+    border-radius: 8px;
+    left: 20%;
+    transition: .5s ease-in-out;
+}
+
+h1 {
+    height: 68px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    padding-top: 8px;
+}
+
+a {
+ 
+    padding: 2px;
+    color: var(--white);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.esp:hover{
+    background-position: right;
+    
+}
+.caixa {
+    border: 8px;
+    border-color: var(--purple);
+}
+
+.img-p {
+    border-radius: 10px;
+    width: 202px;
+    height: 249px;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    background-color: var(--white);
+    height: 120px;
+    width: 90%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-justify: auto;
+    margin-bottom: 40px;
+}
+
+.menu ul li {
+    display: inline;
+    color: var(--purple);
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 23px;
+}
+
+.menu ul li:hover{
+    color: var(--yellow);
+}
+
+#logo {
+    width: 10%;
+    height: 120px;
+}
+
+#div4 {
+    display: flex;
+    flex-direction: initial;
+}
