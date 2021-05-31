@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+    <html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastrar.css">
+    <link rel="shortcut icon" href="img/Logo-Kut-Hair-A.R-fundo-degrade-diagonal.ico" type="image/x-icon">
+    <title>Cadastro Kut Hair</title>
+
+</head>
+
+<body>
+    
+    <main class="cadastro">
+
+        <div class="cad__container">
+
+            <form class="cad__form"></form>
+
+                    <div class="cad__fieldset">
+
+                        <div id="cad__title-radio"> <h2 class="cad__title">Informações do Salão</h2> </div>
+
+                        <br>
+
+                        <label for="nome">Nome do Salão</label>
+                        <input class="cad__input" type="text" name="nome" placeholder="Nome do salão" id="nome">
+                        <span class="cad__input-border"></span>
+
+                        <label for="especializacao">Seu salão é especialidado em algum tipo específico de cabelo? Se sim especifique qual/quais</label>
+                        <input class="cad__input" type="text" name="especialização" placeholder="Ex.: Crespo e cacheados" id="especializacao">
+                        <span class="cad__input-border"></span>
+
+                        <label for="fun">Seu salão tem algum tipo de passatempo para os clientes (jogos de mesa, video-games etc)? Se sim especifique qual/quais</label>
+                        <input class="cad__input" type="text" name="fun" placeholder="Sua resposta" id="especializacao">
+                        <span class="cad__input-border"></span>
+
+                        <label>
+                            <label for="quimica">O ambiente do seu salão é refrigerado?</label> <br> <br>
+                            <input type="radio" name="quimica" value="sim" id="quimica">sim
+                            <input type="radio" name="quimica" value="não">Não
+                        </label>
+
+                    </div>
+
+                    <br>
+
+                    <div class="cad__fieldset">
+
+                        <div id="cad__title-radio"> <h2 class="cad__title">Endereço</h2> </div>    
+
+                        <br>
+
+                        <div class="endereco" id="estado">
+
+                            <input type="text" class="cad__input" name="estado"
+                        placeholder="estado">
+                        <span class="cad__input-border"></span>
+
+                        </div>
+                        
+                        <div class="endereco" id="cep">
+                        
+                        <input type="text" class="cad__input" name="CEP"
+                        placeholder="CEP">
+                        <span class="cad__input-border"></span>
+
+                        </div>
+
+                        <div class="endereco" id="mucipio">
+
+                        <input type="text" class="cad__input" name="municipio"
+                        placeholder="Município">
+                        <span class="cad__input-border"></span>
+
+                        </div>
+
+                        <div class="endereco" id="bairro">
+
+                        <input type="text" class="cad__input" name="bairro"
+                        placeholder="Bairro">
+                        <span class="cad__input-border"></span>
+
+                        </div>
+
+                        <div class="endereco" id="rua">
+
+                        <input type="text" class="cad__input" name="rua"
+                        placeholder="Rua">
+                        <span class="cad__input-border"></span>
+
+                        </div>
+
+                        <div class="endereco" id="numero">
+
+                            <input type="text" class="cad__input" name="numero"
+                            placeholder="Número">
+                            <span class="cad__input-border"></span>
+    
+                        </div>
+
+                    </div>
+
+                    <br>
+
+                    <div class="cad__fieldset">
+
+                        <div id="cad__title-radio"> <h2 class="cad__title">Informações de Login</h2> </div>
+
+                        <br>
+                        
+                        <label for="email">Email</label>
+                        <input class="cad__input" type="email" placeholder="e-mail" id="email">
+                        <span class="cad__input-border"></span>
+
+                        <label for="senha">Crie uma senha de acesso</label>
+                        <input class="cad__input" type="password" placeholder="senha" id="senha">
+                        <span class="cad__input-border"></span> <br> <br>
+
+                        <div id="submit"> <a id="sub-button" href="pagina-principal.html" class="cad__submit">Criar Conta</a> </div>
+
+                    </div>
+
+            </form>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
